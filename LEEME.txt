@@ -1,0 +1,21 @@
+Pasos para instalar proyecto: 
+
+1. **Recomendaciones:**
+   - Se recomienda tener instalado XAMPP.
+
+2. **Configuración del Proyecto:**
+   - Descargar el proyecto desde [https://github.com/catherinefc21/formulario_de_votacion].
+
+3. **Base de Datos:**
+   - Importar los archivos SQL para cargar la base de datos.
+
+4. **Configuración de Conexión:**
+   - Verificar y ajustar los detalles de conexión a la base de datos en el archivo [conexion.php].
+
+5. **Ejecutar el Proyecto:**
+   - Abrir tu navegador y visitar http://localhost/formulario_de_votacion
+
+
+------------------------
+PHP Version 8.2.4
+Base de datos: 10.4.28-MariaDB

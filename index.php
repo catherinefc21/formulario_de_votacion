@@ -75,7 +75,6 @@ $candidatos = $mysqli->query("SELECT ID_Candidato, Nombre_Candidato FROM candida
       <input class="button" type="submit" value="Votar" />
       <div class='message'id="messageContainer"></div>
     </form>
-    <div class='message'id="messageContainer"></div>
     <script src="js/functions.js"></script>
   </body>
 </html>
