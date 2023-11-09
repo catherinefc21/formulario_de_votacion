@@ -1,0 +1,6 @@
+Pasos para instalar proyecto
+
+
+
+Version de PHP
+Version Base de datos

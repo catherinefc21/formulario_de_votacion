@@ -1,0 +1,67 @@
+body{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgba(223, 238, 236, 0.329);
+}
+h2{
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form{
+    max-width: 700px;
+    border: 1px solid #ccc;
+    background-color: #FFF;
+    border-radius: 5px;
+    padding: 25px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.input-group label {
+    display: inline-block;
+    width: 210px; 
+}
+
+.input-group input[type="text"]{
+    width: 280px; 
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.input-group select {
+    width: 292px; 
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.input-group input[type='checkbox']{
+    cursor: pointer;
+}
+.button {
+    margin-top: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 90px;
+    border-radius: 5px;
+    border: none;
+    padding: 7px;
+    cursor: pointer;   
+    background-color: rgba(49, 104, 78, 0.329);
+    font-weight: bold;
+    transition: background-color 0.3s; 
+}
+
+.button:hover {
+    background-color: rgba(76, 163, 115, 0.8) 
+}
+.message{
+    display: flex;
+    justify-content: center;
+    color: rgb(167, 15, 21);
+    font-weight: bold;
+    padding: 10px;
+}
